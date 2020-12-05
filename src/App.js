@@ -1,12 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.css"
-import Button from "react-bootstrap/Button"
+import MenuNavBar from "./component/MenuBar"
 
 function App() {
   return (
-    <div className="App">
-   <Button>click me</Button>
+    <div>
+   <MenuNavBar />
     </div>
   );
 }
