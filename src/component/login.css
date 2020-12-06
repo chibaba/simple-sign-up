@@ -1,0 +1,43 @@
+.social-icons a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ebe3e3;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+
+.social-icons a:hover,
+.a-social-b a:hover {
+    background-color: #000000;
+    box-shadow: 2px, 2px, 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a:hover i,
+.a-social-b a:hover i {
+    color: #fff;
+    transition: all ease 0.5s;
+}
+.social-icons i {
+  color: royalblue;
+}
+
+
+.hire-btn {
+  border-radius: 20%;
+  border: 2px solid #373737;
+  background-color: #3726df;
+  color: white;
+}
+button:active {
+  transform: scale(1.1);
+}
